@@ -23,13 +23,18 @@
 }
 
 .portifolio__item h3 {
-  margin: 1.2 0 2rem;
+  margin: 1rem 0 1rem;
 }
 
 .portifolio__item-cta {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  height: min-content;
+  margin: 1rem 0;
 }
 
 /* =============== Dispositivos médios =============== */

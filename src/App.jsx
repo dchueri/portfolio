@@ -1,12 +1,11 @@
 import React from "react";
+import Contato from "./components/contato/Contato";
+import Experiencia from "./components/experiencia/Experiencia";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
-import Sobre from "./components/sobre/Sobre";
-import Experiencia from "./components/experiencia/Experiencia";
-import Servicos from "./components/servicos/Servicos";
 import Portifolio from "./components/portifolio/Portifolio";
-import Contato from "./components/contato/Contato";
-import Footer from "./components/footer/Footer";
+import Sobre from "./components/sobre/Sobre";
 
 const App = () => {
   return (
@@ -15,7 +14,6 @@ const App = () => {
       <Nav />
       <Sobre />
       <Experiencia />
-      <Servicos />
       <Portifolio />
       <Contato />
       <Footer />
